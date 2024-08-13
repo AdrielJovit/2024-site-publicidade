@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -9,4 +11,16 @@
     --verde-folha: #709775ff;
     --verde-militar: #415d43ff;
     --preto: #111d13ff;
+    --fonte-titulo: "Crimson Text", serif;
+    --fonte-texto: "Roboto Condensed", sans-serif;
+}
+
+body{
+    background-color: var(--verde-claro);
+    font-family: var(--fonte-texto);
+    font-size: 16px;
+}
+
+.titulo-principal{
+    font-family: var(--fonte-titulo);
 }
