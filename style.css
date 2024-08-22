@@ -33,3 +33,26 @@ body{
     width: 15%;
     border-radius: 0%;
 }
+
+cabecalho-nav_link{
+    text-decoration: none;
+    font-family: var(--fonte-titulo);
+    font-size: 24px;
+    color: var(--verde-militar);
+    margin-right: 24px;
+}
+
+.principal-capa{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    background-image: url(img/fundo.jpg);
+    background-repeat: no-repeat;
+    margin-left: 12px;
+    padding: 24px 12px;
+}
+
+.principal-capa_conteudo{
+    
+}
