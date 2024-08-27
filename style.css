@@ -31,28 +31,61 @@ body{
 
 .cabecalho-img{
     width: 15%;
-    border-radius: 0%;
+    border-radius: 100%;
 }
 
-cabecalho-nav_link{
+.cabecalho-nav_link{
     text-decoration: none;
     font-family: var(--fonte-titulo);
-    font-size: 24px;
+    font-size: 36px;
     color: var(--verde-militar);
-    margin-right: 24px;
+    margin-right: 50px;
 }
 
 .principal-capa{
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     gap: 24px;
     background-image: url(img/fundo.jpg);
     background-repeat: no-repeat;
-    margin-left: 12px;
+    margin-left: 0;
     padding: 24px 12px;
 }
 
-.principal-capa_conteudo{
-    
+.principal-capa_combotao{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.principal-capa_titulo{
+    font-family: var(--fonte-titulo);
+    font-size: 32px;
+    color: var(--verde-militar);
+    margin-bottom: 12px;
+}
+
+.principal-capa_texto{
+    font-size: 24px;
+    margin-top: 24px;
+}
+
+.principal-capa_imagem{
+    border-radius: 0 5% 0 5%;
+}
+
+.principal-capa_botao{
+    background-color: var(--verde-claro);
+    border-radius: 5px;
+    padding: 1em;
+    margin-top: 2em;
+    color: var(--verde-folha);
+    text-decoration: none;
+}
+
+.botao_secundario{
+    background-color: transparent;
+    border: 2px solid var(--verde-jazida);
+    color: var(--verde-jazida);
 }
