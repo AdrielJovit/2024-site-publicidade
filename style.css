@@ -42,6 +42,12 @@ body{
     margin-right: 50px;
 }
 
+.cabecalho-nav_link:hover{
+    color: var(--verde-folha);
+    font-size: 45px;
+    transition: 1s;
+}
+
 .principal-capa{
     display: flex;
     justify-content: space-around;
@@ -72,7 +78,7 @@ body{
 }
 
 .principal-capa_imagem{
-    border-radius: 0 5% 0 5%;
+    border-radius: 100%;
 }
 
 .principal-capa_botao{
@@ -82,6 +88,13 @@ body{
     margin-top: 2em;
     color: var(--verde-folha);
     text-decoration: none;
+}
+
+.principal-capa_botao:hover{
+    padding: 1,2em;
+    background-color: var(--verde-jazida);
+    color: var(--verde-militar);
+    transition: 0.5s;
 }
 
 .botao_secundario{
