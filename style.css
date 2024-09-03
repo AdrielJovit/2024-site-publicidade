@@ -98,7 +98,6 @@ body{
 }
 
 .botao_secundario{
-    background-color: transparent;
-    border: 2px solid var(--verde-jazida);
-    color: var(--verde-jazida);
+    background-color: var(--verde-claro);
+    color: var(--verde-folha);
 }
