@@ -101,3 +101,40 @@ body{
     background-color: var(--verde-claro);
     color: var(--verde-folha);
 }
+
+.propaganda{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: 0 7em;
+}
+
+.propaganda_imagem{
+    margin-left: 10%;
+    width: 80%;
+    margin-top: 15%;
+    box-shadow: 1px 1px 1rem var(--preto);
+}
+
+.propaganda_imagem:hover{
+    width: 85%;
+    transition: 1s;
+}
+
+.propaganda_titulo{
+    font-family: var(--fonte-titulo);
+    font-size: 45px;
+    color: var(--preto);
+    text-shadow: 3px 3px 5px var(--verde-folha);
+}
+
+.propaganda_texto{
+    font-size: 20px;
+    color: var(--verde-militar);
+}
+
+.propaganda_botao{
+    
+}
