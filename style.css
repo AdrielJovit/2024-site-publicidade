@@ -136,9 +136,26 @@ body{
     color: var(--verde-militar);
 }
 
+.propaganda_botao{
+    background-color: var(--verde-claro);
+    border-radius: 5px;
+    padding: 1em;
+    margin-top: 20px;
+    color: var(--verde-folha);
+    text-decoration: none;
+    border: 2px solid var(--verde-jazida)
+}
+
+.propaganda_botao:hover{
+    padding: 1,2em;
+    background-color: var(--verde-jazida);
+    color: var(--verde-militar);
+    transition: 0.5s;
+}
+
 .dispositivos{
     text-align: center;
-
+    margin-top: 120px;
 }
 
 .dispositivos_titulo{
@@ -158,4 +175,39 @@ body{
 .lista_item{
     font-size: 25px;
     color: var(--verde-militar);
+}
+
+.rodape_lista{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin-top: 1em;
+}
+
+.lista_link a{
+    color: var(--verde-militar);
+    text-decoration: none;
+    margin-left: 1em;
+    font-size: 20px;
+}
+
+.lista_link a:hover{
+    color: var(--preto);
+    transition: 0.5s;
+}
+
+.rodape_texto {
+    margin: 1em 0;
+    color: var(--verde-militar);
+    font-size: 15px;
+}
+
+.rodape_logo{
+    width: 10%;
+    border-radius: 100%;
+}
+
+.rodape{
+    text-align: center;
+    margin: 5em 3em;
 }
